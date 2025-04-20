@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <title>Portifólio</title>
+
+    <style>
+        @font-face {
+            font-family:'inter';
+            src: url(assets/fonts/static/Inter-Bold.ttf);
+            font-weight: 700;
+        }
+
+        @font-face {
+            font-family: 'inter';
+            src: url(assets/fonts/static/Inter-Regular.ttf);
+            font-weight: 400;
+        }
+        @font-face {
+            font-family: 'inter';
+            src: url(assets/fonts/static/Inter-SemiBold.ttf);
+            font-weight: 600;
+        }
+
+        *{
+            margin: 0;
+        }
+
+        body{
+            background-color: #141414;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            min-width: 300px;
+        }
+        
+        main{
+            font-family: 'inter';
+            display: flex;
+            flex-direction: column ;
+            align-items: center;
+            width: 330px;
+            padding: 0px 20px 20px; 
+            border-radius: 10px;
+            background-color:#1f1f1f ;
+        }
+
+
+
+        @media (max-width: 492px){
+            main{
+                width: 60%;
+            }
+        }
+
+        img{
+            padding: 20px;
+            align-self: center;
+            border-radius: 100px;
+            width: 80px;
+        }
+        
+        h1{
+            color: #ffffff;
+            font-size: 1.4em;
+            text-align: center;
+            font-weight: 600;
+            margin: 5px;
+        }
+
+        h2{
+            color: #c5f82a;
+            font-size: small;
+            font-weight: 700;
+            margin: 5px;
+        }
+
+        p{
+            color: white;
+            font-size: small;
+            font-weight: 400;
+            margin: 15px;
+        }
+
+        .button{
+            padding: 12px;
+            width: 85%;
+            margin: 6px;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            font-size: small;
+            font-weight: 600;
+            background-color: #333333;
+            transition-duration: 0.3s;
+            text-decoration: none;
+        }
+
+        .button:hover{
+            padding: 14px;
+            color: #1f1f1f;
+            background-color: #c5f82a;
+        }
+
+    </style>
+</head>
+<body> 
+    <main>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHGOtAJBKJlDQ/profile-displayphoto-shrink_200_200/B4DZSUCTf7H0Ac-/0/1737650422184?e=1750896000&v=beta&t=id2h3TXQh82ibnR-g6uNLY2lQhCe2aRZ1XK8Ypy6M4g" alt="Adryan">
+        <h1>Adryan Silva</h1>
+        <h2>Itapuranga Góias, Brasil</h2>
+        <p>*Front-end developer and avid reader.*</p>
+        <a href="https://www.frontendmentor.io/profile/Dryynn" class="button" target="_blank">Frontend Mentor</a>
+        <a href="https://github.com/Dryynn" class="button" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/adryan-silva-4952492b4/" class="button" target="_blank">LinkedIn</a>
+        <a href="#" class="button" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/dryyn_arc" class="button" target="_blank">Instagram</a>
+
+    </main>
+</body>
+</html>
